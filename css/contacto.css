@@ -127,3 +127,17 @@ a{
     margin: 15px auto;
     font-size: 25px;
 }
+:root{
+    --fuente-principal: "Arial, Helvetica, sans-serif";
+    --fuente-secundario: "cursive"
+    --color-principal: #0f2a1D;
+    --segundo-color: #375534;
+    --cuarto-color: #6B9071;
+    --quinto-color: #AEC3B0;
+    --sexto-color: #E3EED4;
+    --octavo-color: #E5E0D8;
+    --decimo-color: #D2AB80;
+    --decimoprimer-color: #E5D2B8;
+    --decimosegundo-color: #725C3A;
+
+}

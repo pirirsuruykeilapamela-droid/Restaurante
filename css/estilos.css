@@ -1,3 +1,20 @@
+<<<<<<< HEAD
+:root{
+    --fuente-principal: "Arial, Helvetica, sans-serif";
+    --fuente-secundario: "cursive"
+    --color-principal: #0f2a1D;
+    --segundo-color: #375534;
+    --cuarto-color: #6B9071;
+    --quinto-color: #AEC3B0;
+    --sexto-color: #E3EED4;
+    --octavo-color: #E5E0D8;
+    --decimo-color: #D2AB80;
+    --decimoprimer-color: #E5D2B8;
+    --decimosegundo-color: #725C3A;
+
+}
+=======
+>>>>>>> 7f0dd6e47b4df4f7e761cc5538214eb8151d4a98
 .barra-nav{
     width: 80%;
     height: 100px;
