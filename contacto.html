@@ -3,18 +3,46 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/contacto.css">
     <title>Document</title>
-    <link rel="stylesheet" href="css/estilos.css">
 </head>
 <body>
     <nav class="barra">
         <ul>
-            <li><a href="#">Inicio</a></li>
-            <li><a href="#">Platillos</a></li>
-            <li><a href="#">Bebidas</a></li>
-            <li><a href="#">Promociones</a></li>
-            <li><a href="#">Contacto</a></li>
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="platillos.html">Platillos</a></li>
+            <li><a href="bebidas.html">Bebidas</a></li>
+            <li><a href="promociones.html">Promociones</a></li>
+            <li><a href="contacto.html">Contacto</a></li>
         </ul>
     </nav>
+
+    <div class="contenedor-login">
+        <div class="login">
+            <form action="#">
+                <h1>Login</h1>
+                <div class="contenedor-campos">
+                    <div class="campos1">
+                        <input type="text" placeholder="Nombre Completo" required>
+                    </div>
+                    <div class="campos2">
+                        <input type="text" placeholder="E-mail" required>
+                    </div>
+                    <div class="campos3">
+                        <input type="password" placeholder="password">
+                    </div>
+
+                </div>
+                
+                <!-- boton-->
+                 <div class="boton">
+                    <a href="#">
+                        <button>Aceptar</button>
+                    </a>
+                </div>
+            </form>
+        </div>
+    </div>
 </body>
 </html>
