@@ -159,4 +159,35 @@ li{
 ul li a{
     font-size: 35px;
 }
+.login{
+    width: 65%;
+    height: 75vh;
 }
+
+.boton{
+    width: 500px;
+}
+}
+
+@media(min-width:390px){
+    .login{
+        width: 95%;
+        height: 75vh;
+    }
+
+    .boton{
+    width: 150px;
+}
+}
+
+@media(min-width:768px){
+    .login{
+        width: 65%;
+        height: 65vh;
+    }
+
+    .boton{
+    width: 180px;
+}
+}
+
