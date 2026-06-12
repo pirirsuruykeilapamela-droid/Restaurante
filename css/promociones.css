@@ -4,14 +4,11 @@
     ;
 }
 
+
 :root{
     --fuente-principal: "Arial, Helvetica, sans-serif";
     --fuente-secundario: "cursive";
     --primer-color: #0F2A1D;
-:root{
-    --fuente-principal: "Arial, Helvetica, sans-serif";
-    --fuente-secundario: "cursive"
-    --color-principal: #0f2a1D;
     --segundo-color: #375534;
     --cuarto-color: #6B9071;
     --quinto-color: #AEC3B0;
@@ -24,7 +21,7 @@
     }
     body{
         font-family: var(--fuente-principal);
-        background-color:var(--cuarto-color);
+        background-color:var(--segundo-color);
     }
 .barra{
     width: 100%;
@@ -119,15 +116,12 @@ ul li a{
     height:auto;
     padding: 15px;
     border-radius: 10px;
-    background-color: var(--decimo-color);
-
+    background-color: var(--decimoprimer-color);
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
-
     background-size: cover;
     background-position: center;
-
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     transition: transform 0.3s;
 }
@@ -156,6 +150,4 @@ p{
     text-align: center;
     font-family: var(--fuente-principal);
     color: var(--primer-color);
-
-}
 }
