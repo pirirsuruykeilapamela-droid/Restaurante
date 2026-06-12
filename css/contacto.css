@@ -169,7 +169,7 @@ ul li a{
 }
 }
 
-@media(min-width:390px){
+@media(min-width:389px){
     .login{
         width: 95%;
         height: 80vh;
